@@ -1,6 +1,8 @@
 # マインスイーパ
 
-JavaFX製のマインスイーパゲームです。
+JavaFX製のマインスイーパゲームです。  
+特に追加で導入しないといけないものはないです。  
+(しいて言うならこのファイルをダウンロードするくらいです。)
 
 ## 機能
 
@@ -29,6 +31,13 @@ mvn clean javafx:run
 ```bash
 mvn clean package -DskipTests
 jpackage --input target --main-jar minesweeper-1.0-SNAPSHOT.jar --main-class com.example.App --name Minesweeper --type app-image --module-path "~/.m2/repository/org/openjfx/..." --add-modules javafx.controls,javafx.graphics,javafx.fxml
+```
+
+## もっと簡単な起動方法
+
+```bash
+このデータを全部ダウンロードして、Minesweeperというファイルに入っているMinesweeper.exeを起動すればみんな遊べると思います。
+"...\Minesweeper\Minesweeper.exe"←これを実行しよう!
 ```
 
 ## 動作環境
